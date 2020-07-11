@@ -28,7 +28,7 @@ a:hover {
 .middle-image{
   background-image: url(images/zach/zach_main.jpg);
   background-position: center;
-  height: 80vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
