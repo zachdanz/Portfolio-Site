@@ -15,7 +15,7 @@
 
 <!-- Navbar -->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
   <!-- <a class="navbar-brand" href="#">Navbar</a> -->
   <div class="container">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,6 +39,12 @@
       <li class="nav-item">
         <a class="nav-link" href="#portfolio">Portfolio</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#education">Education</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#experience">Experience</a>
+      </li> -->
       <li class="nav-item">
         <a class="nav-link" href="#contact">Contact</a>
       </li>
@@ -76,7 +82,7 @@
         <p>After graduating with my Bachelor’s Degree in 2013, I moved to China to teach children in what would become a six year stint in the country. </p>
         <p>My journey into the world of professional tech began in 2016, when I started working with a highly successful gaming company, MutantBox, as a Copywriter and Localizer.  Later, I was taken on to work at one of the largest and most successful tech Start-Ups in all of Asia, Jiliguala, a digital English-language teaching APP, where I worked as an Educational Consultant and actor.  At the same time, I completed my Master’s Degree in Intercultural Communication Studies.</p>
         <p>Moving back to the United States, I felt like I had really only had a taste of what I could do in Tech.  Wanting to learn more about the intricacies of Tech, I began my online TechDegree with Team Treehouse, where I began studying their professional courses on web development.  I’ve now learned to build powerful websites with HTML, CSS, JavaScript and more!</p>
-        <p>Besides programming, I love traveling (except during global pandemics), improvisational theatre, working out, reading, and can often found doing something new on my wife’s YouTube channel.</p>
+        <p>Besides programming, I love traveling (except during global pandemics), improvisational theatre, working out, reading, and can often found doing something new on my wife’s <a target="_blank" href="https://www.youtube.com/c/Nurta%C3%A7T%C3%BCrkeli/featured">YouTube channel.</a></p>
       </div>    
     </div>
   </div> 
@@ -202,13 +208,15 @@
 
 <!-- Education -->
 
-<div class="container">
+<div class="container" id="education">
   <h1 class="text-center my-5">Education and Skills</h1>
-    <h4>Education</h4>
+    <h4>Education
+      <small class="text-muted">Click to learn more.</small>
+    </h4>
     <div class="row mb-4">
       <div class="col-7">
         <div class="list-group list-group-flush" id="list-tab" role="tablist">
-          <a class="list-group-item list-group-item-action active d-flex justify-content-between align-items-center" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Front End Web Developer Tech Degree - Team Treehouse
+          <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Front End Web Developer Tech Degree - Team Treehouse
             <span class="badge badge-secondary badge-pill">2020</span>
           </a>
           <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">MA Intercultural Communication - Shanghai Theatre Academy
@@ -221,9 +229,9 @@
       </div>
       <div class="col-5">
         <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">From October 2019 to 2020, I began to officially study the tools to become a Front End Web Developer.  Through Team Treehouse's top-notch TechDegree program, I've acquired a solid foundation in HTML, CSS, JavaScript, and have learned important web developing tools and frameworks such as jQuery, Sass, Bootstrap, Git, Github, and Console.</div>
-          <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">From 2016 to 2019, I attended Shanghai Theatre Academy's bilingual English-Chinese Master's Program in Intercultural Communication.  Placed in the heart one of the most booming cities in the world, STA has a reputation as one of the top schools in China with less than a 1% admittance rate.  While in attandance, my thesis on the topic of Applied Improvisation and Adaptability, was published.</div>
-          <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Located in San Antonio, TX, University of the Incarnate Word is one of the top universities in Texas.  My theatre degree taught so much more than just theatre - I've learned how to communicate and collaborate with artists in a fast-paced, professional environment in order to build something greater than the total sum of its parts. </div>
+          <div class="tab-pane fade border rounded p-2" id="list-home" role="tabpanel" aria-labelledby="list-home-list">From October 2019 to 2020, I began to officially study the tools to become a Front End Web Developer.  Through Team Treehouse's top-notch TechDegree program, I've acquired a solid foundation in HTML, CSS, JavaScript, and have learned important web developing tools and frameworks such as jQuery, Sass, Bootstrap, Git, Github, and Console.</div>
+          <div class="tab-pane fade border rounded p-2" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">From 2016 to 2019, I attended Shanghai Theatre Academy's bilingual English-Chinese Master's Program in Intercultural Communication.  Placed in the heart one of the most booming cities in the world, STA has a reputation as one of the top schools in China with less than a 1% admittance rate.  While in attandance, my thesis on the topic of Applied Improvisation and Adaptability, was published.</div>
+          <div class="tab-pane fade border rounded p-2" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Located in San Antonio, TX, University of the Incarnate Word is one of the top universities in Texas.  My theatre degree taught so much more than just theatre - I've learned how to communicate and collaborate with artists in a fast-paced, professional environment in order to build something greater than the total sum of its parts. </div>
         </div>
       </div>
     </div>
@@ -249,19 +257,19 @@
 
 <!-- Social Media Links -->
 
-<div class="container">
+<div class="container" id="contact">
   <h2 class="text-center">Wanna Get in Touch?</h2>
   <div class="d-flex m-5" style="align-items:center; justify-content: space-evenly;">
     <a href="https://github.com/zachdanz/">
-        <svg class ="social_github" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z" fill="#212121"/></svg> 
+        <svg class ="social_github" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z" fill="#000"/></svg> 
     </a>
 
     <a href="https://www.youtube.com/c/Nurta%C3%A7T%C3%BCrkeli/featured">
-        <svg class ="social_youtube" height="512pt" viewBox="0 -77 512.00213 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0" fill="#f00"/><path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff"/></svg>
+        <svg class ="social_youtube" height="512pt" viewBox="0 -77 512.00213 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0" fill="#000"/><path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff"/></svg>
     </a>
 
     <a href="https://teamtreehouse.com/zacharydanz">
-    <svg class ="social_treehouse" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="210.7 336.7 125 135" width="340px">
+    <svg class ="social_treehouse" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="210.7 336.7 125 135" width="340px" fill="#000">
         <path class="logo"  d="M319.4,362.3c-4.3-2.5-11.3,1.4-15.5,8.8l-7.6,13.2c-2.8,5.5-2.4,12.1,1.2,17.2l0.3,0.3
         c3.5,5.1,8.3,9.7,9.8,11.4c0.9,0.9,1.6,2.2,2,3.5c1.3,4.6-1.4,9.4-6,10.6c-4.6,1.3-9.4-1.4-10.6-6c-0.3-1.2-0.4-2.4-0.3-3.4
         c0.3-2-0.4-5-3.1-8s-8.3,2.8-10.1,8.6l-0.1,0.3c-1.8,5.9-2.9,11-2.6,11.5c0.3,0.3,0.4,0.7,0.5,0.9c2.6,5,0.8,10.9-3.9,13.4
@@ -278,7 +286,7 @@
     <a href="https://twitter.com/zachary_danzary">
         <svg class ="social_twitter" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-            <path style="fill:#03A9F4;" d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+            <path style="fill:#000;" d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
             c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
             c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
             c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
@@ -290,7 +298,7 @@
     </a>
 
     <a href="https://www.linkedin.com/in/zach-danz-b802a869/">
-        <svg class= "social_linkedin" height="512pt" viewBox="0 0 512 512.00038" width="512pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="169.9940010834" x2="299.4934135904" y1="71.98622701" y2="349.0548448864"><stop offset="0" stop-color="#0077b5"/><stop offset="1" stop-color="#0066b2"/></linearGradient><linearGradient id="b"><stop offset="0" stop-color="#0066b2" stop-opacity="0"/><stop offset="1" stop-color="#07485e"/></linearGradient><linearGradient id="c" gradientUnits="userSpaceOnUse" x1="364.2825237824" x2="-379.5864327114" xlink:href="#b" y1="314.0868361356" y2="-84.9521808166"/><linearGradient id="d" gradientUnits="userSpaceOnUse" x1="256.0003" x2="256.0003" xlink:href="#b" y1="415.8267010284" y2="522.8344458318"/><linearGradient id="e" gradientUnits="userSpaceOnUse" x1="271.3543834602" x2="79.916898849" xlink:href="#b" y1="273.7754525398" y2="82.3380683208"/><linearGradient id="f" gradientUnits="userSpaceOnUse" x1="383.7494748922" x2="-1.7565731078" xlink:href="#b" y1="451.630876413" y2="270.924916413"/><linearGradient id="g" gradientUnits="userSpaceOnUse" x1="477.5305473456" x2="208.9696664582" xlink:href="#b" y1="491.2543726544" y2="222.693491767"/><path d="m420.421875 503.234375c-109.503906 11.6875-219.339844 11.6875-328.84375 0-43.664063-4.660156-78.152344-39.148437-82.8125-82.816406-11.6875-109.503907-11.6875-219.335938 0-328.839844 4.660156-43.664063 39.148437-78.152344 82.8125-82.8125 109.503906-11.6875 219.335937-11.6875 328.839844 0 43.667969 4.660156 78.15625 39.148437 82.816406 82.8125 11.6875 109.503906 11.6875 219.335937 0 328.839844-4.660156 43.667969-39.144531 78.15625-82.8125 82.816406zm0 0" fill="url(#a)"/><path d="m475.386719 110.097656c-4.132813-38.746094-34.734375-69.351562-73.484375-73.488281-97.171875-10.367187-194.632813-10.367187-291.804688 0-38.746094 4.136719-69.351562 34.742187-73.488281 73.488281-10.367187 97.171875-10.367187 194.632813 0 291.800782 4.136719 38.75 34.742187 69.355468 73.488281 73.488281 97.171875 10.371093 194.632813 10.371093 291.800782 0 38.75-4.132813 69.355468-34.738281 73.488281-73.488281 10.371093-97.167969 10.371093-194.628907 0-291.800782zm0 0" fill="url(#c)"/><path d="m7.671875 409.804688c.351563 3.539062.714844 7.078124 1.09375 10.617187 4.660156 43.664063 39.148437 78.152344 82.816406 82.8125 109.503907 11.6875 219.335938 11.6875 328.839844 0 43.667969-4.660156 78.152344-39.148437 82.8125-82.8125.378906-3.539063.742187-7.078125 1.097656-10.617187zm0 0" fill="url(#d)"/><path d="m497.714844 443.570312-330.40625-330.410156c-7.378906-9.628906-18.988282-15.84375-32.054688-15.84375-22.289062 0-40.359375 18.066406-40.359375 40.355469 0 13.070313 6.21875 24.679687 15.847657 32.054687l329.257812 329.261719c26.613281-8.855469 47.824219-29.304687 57.714844-55.417969zm0 0" fill="url(#e)"/><path d="m169.152344 204.503906h-67.800782v210.179688l96.203126 96.203125c74.304687 2.8125 148.660156.269531 222.863281-7.652344 12.972656-1.382813 25.125-5.417969 35.9375-11.527344zm0 0" fill="url(#f)"/><path d="m399.410156 222.109375c-12.402344-13.597656-30.257812-22.128906-50.105468-22.128906-31.394532 0-51.65625 11.027343-63.714844 21.265625l-13.285156-16.742188h-62.472657v210.179688l96.492188 96.492187c38.054687-1.238281 76.09375-3.886719 114.097656-7.941406 43.667969-4.660156 78.152344-39.148437 82.8125-82.8125 3.117187-29.195313 5.394531-58.414063 6.847656-87.640625zm0 0" fill="url(#g)"/><g fill="#fff"><path d="m101.355469 204.503906h67.796875v210.179688h-67.796875zm0 0"/><path d="m349.304688 199.980469c-49.683594 0-71.507813 27.613281-77 36.019531v-31.496094h-62.472657v210.179688h67.800781v-105.574219c0-30.507813 14.042969-54.238281 40.679688-54.238281 26.632812 0 30.992188 29.539062 30.992188 65.863281v93.949219h67.800781v-146.902344c0-37.445312-30.355469-67.800781-67.800781-67.800781zm0 0"/><path d="m175.609375 137.675781c0 22.289063-18.066406 40.355469-40.355469 40.355469-22.289062 0-40.359375-18.066406-40.359375-40.355469 0-22.289062 18.070313-40.359375 40.359375-40.359375 22.289063 0 40.355469 18.070313 40.355469 40.359375zm0 0"/></g></svg>
+        <svg class= "social_linkedin" height="512pt" viewBox="0 0 512 512.00038" width="512pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="169.9940010834" x2="299.4934135904" y1="71.98622701" y2="349.0548448864"><stop offset="0" stop-color="#0077b5"/><stop offset="1" stop-color="#0066b2"/></linearGradient><linearGradient id="b"><stop offset="0" stop-color="#0066b2" stop-opacity="0"/><stop offset="1" stop-color="#07485e"/></linearGradient><linearGradient id="c" gradientUnits="userSpaceOnUse" x1="364.2825237824" x2="-379.5864327114" xlink:href="#b" y1="314.0868361356" y2="-84.9521808166"/><linearGradient id="d" gradientUnits="userSpaceOnUse" x1="256.0003" x2="256.0003" xlink:href="#b" y1="415.8267010284" y2="522.8344458318"/><linearGradient id="e" gradientUnits="userSpaceOnUse" x1="271.3543834602" x2="79.916898849" xlink:href="#b" y1="273.7754525398" y2="82.3380683208"/><linearGradient id="f" gradientUnits="userSpaceOnUse" x1="383.7494748922" x2="-1.7565731078" xlink:href="#b" y1="451.630876413" y2="270.924916413"/><linearGradient id="g" gradientUnits="userSpaceOnUse" x1="477.5305473456" x2="208.9696664582" xlink:href="#b" y1="491.2543726544" y2="222.693491767"/><path d="m420.421875 503.234375c-109.503906 11.6875-219.339844 11.6875-328.84375 0-43.664063-4.660156-78.152344-39.148437-82.8125-82.816406-11.6875-109.503907-11.6875-219.335938 0-328.839844 4.660156-43.664063 39.148437-78.152344 82.8125-82.8125 109.503906-11.6875 219.335937-11.6875 328.839844 0 43.667969 4.660156 78.15625 39.148437 82.816406 82.8125 11.6875 109.503906 11.6875 219.335937 0 328.839844-4.660156 43.667969-39.144531 78.15625-82.8125 82.816406zm0 0" fill="#000"/><path d="m475.386719 110.097656c-4.132813-38.746094-34.734375-69.351562-73.484375-73.488281-97.171875-10.367187-194.632813-10.367187-291.804688 0-38.746094 4.136719-69.351562 34.742187-73.488281 73.488281-10.367187 97.171875-10.367187 194.632813 0 291.800782 4.136719 38.75 34.742187 69.355468 73.488281 73.488281 97.171875 10.371093 194.632813 10.371093 291.800782 0 38.75-4.132813 69.355468-34.738281 73.488281-73.488281 10.371093-97.167969 10.371093-194.628907 0-291.800782zm0 0" fill="#000"/><path d="m7.671875 409.804688c.351563 3.539062.714844 7.078124 1.09375 10.617187 4.660156 43.664063 39.148437 78.152344 82.816406 82.8125 109.503907 11.6875 219.335938 11.6875 328.839844 0 43.667969-4.660156 78.152344-39.148437 82.8125-82.8125.378906-3.539063.742187-7.078125 1.097656-10.617187zm0 0" fill="#000"/><path d="m497.714844 443.570312-330.40625-330.410156c-7.378906-9.628906-18.988282-15.84375-32.054688-15.84375-22.289062 0-40.359375 18.066406-40.359375 40.355469 0 13.070313 6.21875 24.679687 15.847657 32.054687l329.257812 329.261719c26.613281-8.855469 47.824219-29.304687 57.714844-55.417969zm0 0" fill="#000"/><path d="m169.152344 204.503906h-67.800782v210.179688l96.203126 96.203125c74.304687 2.8125 148.660156.269531 222.863281-7.652344 12.972656-1.382813 25.125-5.417969 35.9375-11.527344zm0 0" fill="#000"/><path d="m399.410156 222.109375c-12.402344-13.597656-30.257812-22.128906-50.105468-22.128906-31.394532 0-51.65625 11.027343-63.714844 21.265625l-13.285156-16.742188h-62.472657v210.179688l96.492188 96.492187c38.054687-1.238281 76.09375-3.886719 114.097656-7.941406 43.667969-4.660156 78.152344-39.148437 82.8125-82.8125 3.117187-29.195313 5.394531-58.414063 6.847656-87.640625zm0 0" fill="#000"/><g fill="#fff"><path d="m101.355469 204.503906h67.796875v210.179688h-67.796875zm0 0"/><path d="m349.304688 199.980469c-49.683594 0-71.507813 27.613281-77 36.019531v-31.496094h-62.472657v210.179688h67.800781v-105.574219c0-30.507813 14.042969-54.238281 40.679688-54.238281 26.632812 0 30.992188 29.539062 30.992188 65.863281v93.949219h67.800781v-146.902344c0-37.445312-30.355469-67.800781-67.800781-67.800781zm0 0"/><path d="m175.609375 137.675781c0 22.289063-18.066406 40.355469-40.355469 40.355469-22.289062 0-40.359375-18.066406-40.359375-40.355469 0-22.289062 18.070313-40.359375 40.359375-40.359375 22.289063 0 40.355469 18.070313 40.355469 40.359375zm0 0"/></g></svg>
     </a>
   </div>
 </div>
