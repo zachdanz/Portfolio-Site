@@ -2,10 +2,25 @@
 ===============  SVG  =================
 ==================================== */
 svg {
-    width: 70px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
     fill: black;
     margin: 1em;
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  svg {
+    width: 45px;
+    height: 45px; }
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  svg {
+    width: 70px;
+    height: 70px; 
+  }
 }
 
 a:hover {
@@ -18,10 +33,6 @@ a:hover {
 
 .social_github path:hover {
   fill: #800080;
-  transform: 
-    rotate(5deg)
-    /* scale(1.05); */
-  transform-origin: center;
 }
 
 .social_youtube path:hover {
