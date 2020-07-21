@@ -49,7 +49,7 @@ path {
 ==================================== */
 
 .title-text {
-    background-image: url(images/zach/zach_dark.jpg);
+    background-image: url(images/zach/zach_main.jpg);
     background-position: center;
     height: 100vh;
     display: flex;
@@ -65,7 +65,7 @@ path {
 }
 
 .middle-image{
-  background-image: url(images/zach/zach_main.jpg);
+  background-image: url(images/zach/zach_dark.jpg);
   background-position: center;
   height: 60vh;
   background-attachment: fixed;
