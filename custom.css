@@ -1,3 +1,7 @@
+body, .list-group-item {
+  background-color: rgb(214, 236, 255);
+}
+
 /* ====================================
 ===============  SVG  =================
 ==================================== */
@@ -11,17 +15,17 @@ svg {
 /*  Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
   svg {
-    width: 45px;
-    height: 45px; }
-}
-
- /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  svg {
     width: 70px;
     height: 70px; 
   }
 }
+
+ /* Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  svg {
+
+  }
+} */
 
 a:hover {
     text-decoration: none;
@@ -102,6 +106,19 @@ path {
     font-size: 13px;
     position: relative;
     top: -5px;
+}
+
+.farewell_img {
+  width: 30%;
+  border-radius: 50%;
+  transform: rotate(180deg);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.0s;
+}
+
+.farewell_img:hover{
+  transform: 
+    rotate(0deg)
+    scale(1.1);
 }
 
  /* ====================================
