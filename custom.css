@@ -1,5 +1,9 @@
 body, .list-group-item {
-  background-color: rgb(214, 236, 255);
+  background-color: rgb(221, 239, 255);
+}
+
+.info-text {
+  text-align: justify;
 }
 
 /* ====================================
