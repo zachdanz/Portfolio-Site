@@ -1,5 +1,5 @@
 body, .list-group-item {
-  background-color: rgb(221, 239, 255);
+  background-color: rgb(231, 242, 252);
 }
 
 .info-text {
@@ -144,8 +144,8 @@ path {
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
   }
   .card:hover {
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
   }
   .card:hover:before {
     opacity: 1;
