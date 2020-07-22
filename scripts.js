@@ -8,3 +8,10 @@ $(document).ready(function () {
 });
 
 
+
+
+// Collapse Navbar automatically 
+
+$('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
