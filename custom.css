@@ -1,3 +1,11 @@
+/* ====================================
+===========  Overall/ Nav  ============
+==================================== */
+
+html{
+  scroll-behavior: smooth;
+}
+
 body, .list-group-item {
   background-color: rgb(231, 242, 252);
 }
@@ -14,8 +22,6 @@ body, .list-group-item {
   background-color: rgb(24, 10, 75);
   transition: background-color 200ms ease-in;
 }
-
-
 
 /* ====================================
 ===============  SVG  =================
@@ -234,7 +240,3 @@ path {
     background: dodgerblue;
     color: white;
   }
-
-
-
-
