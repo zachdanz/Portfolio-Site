@@ -1,5 +1,5 @@
 /* ====================================
-===========  Overall/ Nav  ============
+==============  Overall  ==============
 ==================================== */
 
 html{
@@ -8,7 +8,16 @@ html{
 
 body, .list-group-item {
   background-color: rgb(231, 242, 252);
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.info-text {
+  text-align: justify;
+}
+
+/* ====================================
+===============   Nav  ================
+==================================== */
 
 .profile-image {
   height: 70px;
@@ -24,8 +33,17 @@ body, .list-group-item {
     scale(1.05);
 }
 
-.info-text {
-  text-align: justify;
+.profile-name {
+  font-family: 'Galada', cursive;
+  font-size: 36px;
+  position: relative;
+  top: 4px;
+}
+
+.profile-subtitle {
+  font-size: 13px;
+  position: relative;
+  top: -5px;
 }
 
 .anchor-correction{
@@ -41,24 +59,17 @@ body, .list-group-item {
 ===============  SVG  =================
 ==================================== */
 svg {
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
     fill: black;
     margin: 1em;
 }
 
-/*  Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+ /* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { 
   svg {
     width: 70px;
     height: 70px; 
-  }
-}
-
- /* Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  svg {
-
   }
 } */
 
@@ -121,21 +132,6 @@ path {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-
-
-.profile-name {
-    font-family: 'Galada', cursive;
-    font-size: 36px;
-    position: relative;
-    top: 4px;
-}
-
-.profile-subtitle {
-    font-size: 13px;
-    position: relative;
-    top: -5px;
 }
 
 .farewell_img {
