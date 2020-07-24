@@ -10,6 +10,20 @@ body, .list-group-item {
   background-color: rgb(231, 242, 252);
 }
 
+.profile-image {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 3px green solid;
+  transition: ease-in .3s;
+}
+
+.profile-image:hover{
+  transform: 
+    rotate(5deg)
+    scale(1.05);
+}
+
 .info-text {
   text-align: justify;
 }
@@ -109,12 +123,7 @@ path {
   background-size: cover;
 }
 
-.profile-image {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    border: 3px green solid;
-}
+
 
 .profile-name {
     font-family: 'Galada', cursive;
