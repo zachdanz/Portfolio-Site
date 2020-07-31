@@ -27,6 +27,11 @@ body, .list-group-item {
   transition: ease-in .3s;
 }
 
+.hidden-on-arrival {
+  transition: ease-in .3s;
+  display: none;
+}
+
 .profile-image:hover{
   transform: 
     rotate(5deg)
@@ -120,7 +125,7 @@ path {
 ==================================== */
 
 .title-text {
-    background-image: url(images/zach/zach_main.jpg);
+    background-image: url(images/zach/zach_main_mobile.jpeg);
     background-position: center;
     height: 100vh;
     display: flex;
@@ -136,7 +141,7 @@ path {
 }
 
 .middle-image{
-  background-image: url(images/zach/zach_dark.jpg);
+  background-image: url(images/zach/zach_dark_mobile.jpeg);
   background-position: center;
   height: 60vh;
   background-attachment: fixed;
@@ -145,12 +150,28 @@ path {
 }
 
 .farewell_img {
-  width: 30%;
+  width: 50%;
   border-radius: 50%;
   transform: rotate(180deg);
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.0s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+@media (min-width: 576px) { 
+
+  .farewell_img {
+    width: 30%;
+  }
+
+  .title-text {
+    background-image: url(images/zach/zach_main.jpg);
+  }
+
+  .middle-image {
+    background-image: url(images/zach/zach_dark.jpg);
+  }
+}
+
 
 .farewell_img:hover{
   transform: 
