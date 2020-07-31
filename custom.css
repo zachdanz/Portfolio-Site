@@ -125,7 +125,7 @@ path {
 ==================================== */
 
 .title-text {
-    background-image: url(images/zach/zach_main_mobile.jpeg);
+    background-image: url(images/zach/zach_main.jpg);
     background-position: center;
     height: 100vh;
     display: flex;
@@ -135,18 +135,12 @@ path {
     text-align: center;
     color: white;
     text-shadow: 0px 0px 12px black;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .middle-image{
   background-image: url(images/zach/zach_dark_mobile.jpeg);
   background-position: center;
   height: 60vh;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .farewell_img {
@@ -165,10 +159,16 @@ path {
 
   .title-text {
     background-image: url(images/zach/zach_main.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .middle-image {
     background-image: url(images/zach/zach_dark.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
