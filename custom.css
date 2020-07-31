@@ -55,6 +55,16 @@ body, .list-group-item {
   transition: background-color 200ms ease-in;
 }
 
+nav {
+  background-color: rgb(24, 10, 75);
+}
+
+@media (min-width: 576px) { 
+  nav {
+    background-color: transparent;
+  }
+}
+
 /* ====================================
 ===============  SVG  =================
 ==================================== */

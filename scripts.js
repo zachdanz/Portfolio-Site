@@ -12,5 +12,4 @@ $('.navbar-collapse a').click(function(){
     $(".navbar-collapse").collapse('hide');
 });
 
-//Smooth navigation to Nav anchors
 
