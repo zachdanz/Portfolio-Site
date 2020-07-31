@@ -135,12 +135,16 @@ path {
     text-align: center;
     color: white;
     text-shadow: 0px 0px 12px black;
+    background-size: cover;
+
 }
 
 .middle-image{
   background-image: url(images/zach/zach_dark_mobile.jpeg);
   background-position: center;
   height: 60vh;
+  background-size: cover;
+
 }
 
 .farewell_img {
@@ -161,14 +165,12 @@ path {
     background-image: url(images/zach/zach_main.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .middle-image {
     background-image: url(images/zach/zach_dark.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
   }
 }
 
